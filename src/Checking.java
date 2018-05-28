@@ -28,7 +28,7 @@ public class Checking extends Account {
         this.pin = Integer.parseInt(utilities.RandomNumber.lengthOfRandomNumber(4));
     }
 
-    public void showInfro() {
+    public void showInfo() {
         super.showInfo();
         System.out.println("The card number is: " +
                 getCardNumber() + "\nThe pin is: " +

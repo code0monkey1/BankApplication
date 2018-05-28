@@ -33,7 +33,7 @@ public class Savings extends Account {
     public void showInfo(){
         super.showInfo();
         System.out.println("The saftey ID is: "+getSafetyID()+
-                "\n The accessCode is: "+
+                "\nThe accessCode is: "+
                 getAccessCode());
         System.out.println("**********************");
     }
